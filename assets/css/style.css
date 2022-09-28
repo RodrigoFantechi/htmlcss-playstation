@@ -6,6 +6,7 @@
     --clr-dark-2: #363636;
     --clr-accent: #117BD1;
     --clr-call_to_action: #CD3D0F;
+    --clr-dark-3: #BEBCBB;
     --font-body: Arial;
     --font-nav: Helvetica;
 }
@@ -43,9 +44,12 @@ img {
     background-color: var(--clr-dark-2);
 }
 
-
 .clr_dark-2 {
     color: var(--clr-dark-2);
+}
+
+.bg_dark-3 {
+    background-color: var(--clr-dark-3);
 }
 
 .clr_accent {
@@ -56,24 +60,13 @@ img {
     background-color: var(--clr-accent);
 }
 
-/* .fs_h2 {
-    font-size: 36px;
-}
-.fs_h3 {
-    font-size: 25px;
-}
-.fs_h4 {
-    font-size: 20px;
-} */
-.fs_h5 {
-    font-size: 14px;
-} 
+
  .fs_h6 {
-    font-size: 12px;
+    font-size: 14px;
 }
 .px-6{
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .botton_border {
@@ -86,10 +79,11 @@ img {
 
 nav {
     font-family: var(--font-nav);
+    font-size: 14px;
 }
 
 .logo_sony_extended img {
-    width: 50px;
+    width: 75px;
 }
 
 nav .fa-solid {
