@@ -1,7 +1,9 @@
 /* #region COMMON RULES */
 :root{
+    --clr-light:#A3A3A3;
     --font-body: Arial;
     --font-navbar: Helvetica;
+    --clr-dark-2:#363636;
 }
 body{
     font-family: var(--font-body);
@@ -11,10 +13,30 @@ img{
 }
 /* #endregion COMMON RULES */
 
+/* #region UTILITIES */
+.clr_light{
+    color: var(--clr-light);
+}
+.bg_dark-2{
+    background-color: var(--clr-dark-2);
+}
+
+/* #endregion UTILITIES */
+
+
+
 /* #region HEADER */
 .logo_sony_extended img{
 width: 50px;
 }
+nav{
+    font-family: var(--font-navbar);
+}
+nav .fa-solid{
+    font-size: 0.75rem;
+    margin: 0 0.5rem;
+}
+
 /* #endregion HEADER */
 
 /* #region MAIN */
