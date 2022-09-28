@@ -1,0 +1,30 @@
+/* #region COMMON RULES */
+:root{
+    --font-body: Arial;
+    --font-navbar: Helvetica;
+}
+body{
+    font-family: var(--font-body);
+}
+img{
+    max-width: 100%;
+}
+/* #endregion COMMON RULES */
+
+/* #region HEADER */
+.logo_sony_extended img{
+width: 50px;
+}
+/* #endregion HEADER */
+
+/* #region MAIN */
+/* #endregion MAIN */
+
+/* #region FOOTER */
+/* #endregion FOOTER */
+
+
+
+
+
+
