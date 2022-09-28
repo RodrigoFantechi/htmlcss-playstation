@@ -1,49 +1,133 @@
 /* #region COMMON RULES */
-:root{
-    --clr-light:#A3A3A3;
+:root {
+    --clr-light: #A3A3A3;
+    --clr-light-2: #8E8E8E;
+    --clr-dark-1: #1F1F1F;
+    --clr-dark-2: #363636;
+    --clr-accent: #117BD1;
+    --clr-call_to_action: #CD3D0F;
     --font-body: Arial;
-    --font-navbar: Helvetica;
-    --clr-dark-2:#363636;
+    --font-nav: Helvetica;
 }
-body{
+
+body {
     font-family: var(--font-body);
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 /* #endregion COMMON RULES */
 
 /* #region UTILITIES */
-.clr_light{
+.clr_light {
     color: var(--clr-light);
 }
-.bg_dark-2{
+
+.clr_light-2 {
+    color: var(--clr-light-2);
+}
+
+.clr_call_to_action {
+    color: var(--clr-call_to_action);
+}
+
+.bg_call_to_action {
+    background-color: var(--clr-call_to_action);
+}
+.bg_dark-1 {
+    background-color: var(--clr-dark-1);
+}
+.bg_dark-2 {
     background-color: var(--clr-dark-2);
+}
+
+
+.clr_dark-2 {
+    color: var(--clr-dark-2);
+}
+
+.clr_accent {
+    color: var(--clr-accent);
+}
+
+.bg_accent {
+    background-color: var(--clr-accent);
+}
+
+/* .fs_h2 {
+    font-size: 36px;
+}
+.fs_h3 {
+    font-size: 25px;
+}
+.fs_h4 {
+    font-size: 20px;
+}
+.fs_h5 {
+    font-size: 16px;
+} 
+ .fs_h6 {
+    font-size: 12px;
+} */
+
+.botton_border {
+    border-bottom: 2px solid var(--clr-accent);
 }
 
 /* #endregion UTILITIES */
 
-
-
 /* #region HEADER */
 
-.logo_sony_extended img{
-width: 50px;
+nav {
+    font-family: var(--font-nav);
 }
-nav{
-    font-family: var(--font-navbar);
+
+.logo_sony_extended img {
+    width: 50px;
 }
-nav .fa-solid{
+
+nav .fa-solid {
     font-size: 0.75rem;
-    margin: 0 0.3rem;
+    margin: 0 0.2rem;
 }
-nav .icon_bigger{
-    font-size: 1rem;
+
+nav .icon_bigger {
+    font-size: 1.5rem;
 }
+
 /* #endregion HEADER */
 
 /* #region MAIN */
+
+/* PLAYSTATION 5 */
+
+.opacity {
+    filter: opacity(50%);
+}
+
+/* IT_TAKES_TWO */
+.it_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.it_takes_two img {
+    max-width: 500px;
+    width: 60%;
+}
+
+
+
+
 /* #endregion MAIN */
+
+
+
+
 
 /* #region FOOTER */
 /* #endregion FOOTER */
@@ -51,8 +135,3 @@ nav .icon_bigger{
 
 /* #region DEBUG */
 /* #endregion DEBUG */
-
-
-
-
-
