@@ -64,13 +64,17 @@ img {
 }
 .fs_h4 {
     font-size: 20px;
-}
+} */
 .fs_h5 {
-    font-size: 16px;
+    font-size: 14px;
 } 
  .fs_h6 {
     font-size: 12px;
-} */
+}
+.px-6{
+    padding-left: 4%;
+    padding-right: 4%;
+}
 
 .botton_border {
     border-bottom: 2px solid var(--clr-accent);
@@ -105,6 +109,10 @@ nav .icon_bigger {
 
 .opacity {
     filter: opacity(50%);
+}
+
+.pictures img{
+    max-width: 70px;
 }
 
 /* IT_TAKES_TWO */
