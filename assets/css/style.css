@@ -76,6 +76,7 @@ img {
 
 
 /* SIZING */
+
  .fs_h6 {
     font-size: 14px;
 }
@@ -85,16 +86,12 @@ img {
 }
 
 
+/* LINK */
 a{
     text-decoration: none;
 }
 
-
-
-
-a.btn:hover{
-        box-shadow: inset 0 0 0 2px white;   
-    }
+/* BTN */
 
 
 
@@ -102,9 +99,12 @@ a.btn:hover{
 
 /* #region HEADER */
 
-nav {
-    font-family: var(--font-nav);
+header{
+    position: fixed;
     z-index: 100;
+}
+nav {
+    font-family: var(--font-nav);  
 }
 
 .logo_sony_extended img {
@@ -226,6 +226,7 @@ footer{
 }
 .sie_logo{
     width: 100px;
+    
 }
 .link_footer{
     text-decoration: none;
@@ -238,5 +239,8 @@ footer{
 
 footer li{
     margin-bottom: 5px;
+}
+footer a:hover{
+    color: white;
 }
 /* #endregion FOOTER */
