@@ -1,12 +1,16 @@
 /* #region COMMON RULES */
-:root {
+:root { 
+    --clr-lighter: #F5F5F5;
     --clr-light: #A3A3A3;
     --clr-light-2: #8E8E8E;
+    --clr-light-3: #D9DADC;
     --clr-dark-1: #1F1F1F;
     --clr-dark-2: #363636;
-    --clr-accent: #117BD1;
-    --clr-call_to_action: #CD3D0F;
     --clr-dark-3: #BEBCBB;
+    --clr-dark-blue: #161C3B;
+    --clr-accent: #117BD1;
+    --clr-dark-accent: #00439C;
+    --clr-call_to_action: #CD3D0F;
     --font-body: Arial;
     --font-nav: Helvetica;
 }
@@ -22,45 +26,58 @@ img {
 /* #endregion COMMON RULES */
 
 /* #region UTILITIES */
-.clr_light {
-    color: var(--clr-light);
+
+/* BG */
+.bg_lighter {
+    background-color: var(--clr-lighter);
+}
+.bg_light-3 {
+    background-color: var(--clr-light-3);
 }
 
-.clr_light-2 {
-    color: var(--clr-light-2);
-}
-
-.clr_call_to_action {
-    color: var(--clr-call_to_action);
-}
-
-.bg_call_to_action {
-    background-color: var(--clr-call_to_action);
-}
 .bg_dark-1 {
     background-color: var(--clr-dark-1);
 }
 .bg_dark-2 {
     background-color: var(--clr-dark-2);
 }
+.bg_dark-3 {
+    background-color: var(--clr-dark-3);
+}
+.bg_dark-blue {
+    background-color: var(--clr-dark-blue);
+}
+.bg_accent {
+    background-color: var(--clr-accent);
+}
+.bg_dark-accent {
+    background-color: var(--clr-dark-accent);
+}
+.bg_call_to_action {
+    background-color: var(--clr-call_to_action);
+}
+
+/* CLR */
+.clr_light {
+    color: var(--clr-light);
+}
+.clr_light-2 {
+    color: var(--clr-light-2);
+}
+.clr_call_to_action {
+    color: var(--clr-call_to_action);
+}
 
 .clr_dark-2 {
     color: var(--clr-dark-2);
-}
-
-.bg_dark-3 {
-    background-color: var(--clr-dark-3);
 }
 
 .clr_accent {
     color: var(--clr-accent);
 }
 
-.bg_accent {
-    background-color: var(--clr-accent);
-}
 
-
+/* SIZING */
  .fs_h6 {
     font-size: 14px;
 }
@@ -79,7 +96,6 @@ img {
 
 nav {
     font-family: var(--font-nav);
-    font-size: 14px;
 }
 
 .logo_sony_extended img {
@@ -99,6 +115,25 @@ nav .icon_bigger {
 
 /* #region MAIN */
 
+
+/* RETURNAL */
+.returnal{
+    padding-top: 7rem;
+}
+.image_returnal{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mt-6{
+    padding-top: 20rem;
+}
+.returnal_title{
+    width: 60%;
+}
+
 /* PLAYSTATION 5 */
 
 .opacity {
@@ -113,6 +148,7 @@ nav .icon_bigger {
 }
 
 /* IT_TAKES_TWO */
+
 .it_takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -124,19 +160,39 @@ nav .icon_bigger {
     max-width: 500px;
     width: 60%;
 }
+/*  PLAYSTATION 4 */
 
+.register{
+    font-size: 12px;
+}
+/* PLAYSTATION_PLUS */
 
-
+.image_play_plus{
+    max-width: 350px;
+}
+/* SOCIALS */
+/* .socials img{
+    max-width: 250px;
+} */
 
 /* #endregion MAIN */
 
-
-
-
-
 /* #region FOOTER */
+footer{
+    font-size: 14px;
+}
+.globe{
+    width: 20px;
+}
+.sie_logo{
+    width: 100px;
+}
+.link_footer{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.list_footer{
+    list-style: none;
+}
 /* #endregion FOOTER */
-
-
-/* #region DEBUG */
-/* #endregion DEBUG */
