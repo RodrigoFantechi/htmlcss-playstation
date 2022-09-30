@@ -92,7 +92,32 @@ a{
 }
 
 /* BTN */
-
+.my_btn{
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+.my_btn.bg_dark-2:hover{
+    border-color: var(--clr-dark-2);
+    box-shadow: inset 0px 0px 0px 1px white; 
+}
+.my_btn.bg_call_to_action:hover{
+    border-color:var(--clr-call_to_action);
+    box-shadow: inset 0px 0px 0px 1px var(--clr-dark-1); 
+}
+.my_btn.bg_accent:hover{
+    border-color:var(--clr-accent);
+    box-shadow: inset 0px 0px 0px 1px white; 
+}
+.my_btn.bg_light-3:hover{
+    border-color:var(--clr-light-3);
+    box-shadow: inset 0px 0px 0px 1px var(--clr-dark-3); 
+}
+.my_btn.bg_lighter:hover{
+    border-color:var(--clr-lighter);
+    box-shadow: inset 0px 0px 0px 1px var(--clr-dark-blue); 
+}
 
 
 /* #endregion UTILITIES */
@@ -135,7 +160,6 @@ nav .icon_bigger {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .pt-6{
     padding-top: 25rem;
 }
@@ -174,6 +198,9 @@ nav .icon_bigger {
 .pictures img{
     max-width: 70px;
 }
+ .unbordered{
+    border-bottom: 2px solid transparent;
+}
 .playstation5 .my_card:hover{
     border-bottom: 2px solid var(--clr-accent);
 }
@@ -195,25 +222,35 @@ nav .icon_bigger {
     max-width: 500px;
     width: 60%;
 }
+
 /*  PLAYSTATION 4 */
 
 .register{
     font-size: 12px;
+}
+.playstation4 .col{
+    position: relative;  
+}
+.playstation4 .my_btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.playstation4 p{
+    margin-bottom: 4rem;
 }
 /* PLAYSTATION_PLUS */
 
 .image_play_plus{
     max-width: 350px;
 }
+
 /* SOCIALS */
 
 .my_container{
 max-width: 768px;
 margin: 0 auto;
 }
-/* .socials img{
-    max-width: 250px;
-} */
 
 /* #endregion MAIN */
 
