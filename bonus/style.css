@@ -388,3 +388,55 @@ footer a:hover {
 
 /* #endregion FOOTER */
 
+/* CAROSELLO */
+
+
+
+.carousel-indicators {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    position: static;
+    box-sizing: border-box;
+    margin-right: 3px;
+    margin-left: 3px;
+    width: 200px;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    background-color: #fff;
+    opacity: 1;
+}
+
+
+.carousel-indicators .active {
+    border-color: var(--clr-accent);
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 1.25rem;
+    left: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+.immaggine{
+    
+    max-height: 705px;
+   aspect-ratio: 1/1;
+}
