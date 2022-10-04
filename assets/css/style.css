@@ -438,3 +438,78 @@ footer a:hover {
     width: auto;
     height: 705px;
 } */
+
+/* #region DEBUG */
+
+.debug  .logo_sony_extended{
+    height: 10px;
+    background-color: red;   
+}
+.debug  nav{
+    height: 90px;
+    background-color: blue;   
+}
+.debug .returnal{
+    height: 800px;
+    background-color: gray;
+}
+.debug .playstation5{
+    height: 800px;
+    
+}
+.debug .it_takes_two{
+    height: 800px;
+    background-color: gray;
+}
+.debug .new_releases{
+    height: 800px;
+    
+}
+.debug .playstation4{
+    height: 800px;
+    background-color: gray;
+}
+.debug .playstation_plus{
+    height: 800px;
+    
+}
+.debug .discounts{
+    height: 800px;
+    background-color: gray;
+}
+.debug .playstation_now{
+    height: 800px;
+    
+}
+.debug .socials{
+    height: 800px;
+    background-color: gray;
+}
+
+.debug footer{
+    height: 600px;
+    background-color: green;
+}
+
+
+.debug [class^="col"]{
+    height: 250px;
+    background-color: orange;
+    border: 1px solid;
+}
+.debug .my_card {
+    background-color: white;
+    height: 100%;
+}
+
+
+.debug  .image_returnal{
+    height: 400px;
+    background-color: rgb(255, 0, 179);   
+}
+.debug  .carosel .col{
+    height: 100px;
+    width: 250;
+    background-color: blue;   
+}
+/* #endregion DEBUG */
